@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #efefef;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #111;
+}
+
+.container {
+  background: #fff;
+  width: 90%;
+  margin: 10px auto;
+}
+
+form {
+  padding: 10px;
+  width: 30%;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+input[type="text"], textarea {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+input[type="radio"], input[type="checkbox"]{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  display: inline-block;
+  margin: 10px;
+}
+button{
+  background: #111;
+  padding: 10px 30px;
+  width: 100%;
+  color: #fff;
+  border: 1px solid #111;
+  margin: 10px 0;
+}
+
+button:disabled{
+  cursor: not-allowed;
+  opacity: .5;
+}
